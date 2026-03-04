@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* --background: 17 78% 96%; */
+    --foreground: 20 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 15%;
+
+    --primary: 265 45% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 20 25% 88%;
+    --secondary-foreground: 20 10% 15%;
+
+    --muted: 20 20% 92%;
+    --muted-foreground: 20 10% 40%;
+
+    --accent: 265 40% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 15% 85%;
+    --input: 265 45% 45%;
+    --ring: 265 45% 45%;
+
+    --radius: 0.75rem;
+
+    --brown: 20 30% 25%;
+    --brown-foreground: 0 0% 100%;
+    --brown-light: 20 20% 35%;
+
+    --hero-bg: 20 33% 93%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-cairo;
+    direction: rtl;
+  }
+}
+
+.background-image {
+  background-image: url(./assets/background.png);
+  background-position: center;
+}
+
+.back {
+  background-image: url(./assets/backgroundFooter.png);
+}
