@@ -51,7 +51,7 @@ const About = () => {
       <ServicesSection />
 
       {/* Stats */}
-      <section className="bg-background">
+      <section className="bg-[#FDF3EF]">
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {stats.map((stat) => (
