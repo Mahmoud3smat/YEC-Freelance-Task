@@ -60,13 +60,15 @@ export default function Form() {
           أوافق على الشروط والأحكام
         </span>
       </label>
-      <button
-        type="submit"
-        disabled={!agreed}
-        className="bg-primary text-primary-foreground font-cairo font-bold py-3 px-12 rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50"
-      >
-        إرسال الآن
-      </button>
+      <div className="text-center">
+        <button
+          type="submit"
+          disabled={!agreed}
+          className="bg-primary text-primary-foreground font-cairo font-bold py-3 px-12 rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50"
+        >
+          إرسال الآن
+        </button>
+      </div>
     </form>
   );
 }
