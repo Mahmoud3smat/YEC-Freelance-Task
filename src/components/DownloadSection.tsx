@@ -14,11 +14,11 @@ const DownloadSection = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4 justify-center">
-            <button className="bg-foreground/90 text-background font-semibold px-10 py-3 rounded-lg flex items-center gap-2 hover:opacity-90 transition-opacity">
+            <button className="bg-foreground/90 text-background font-semibold px-7 sm:px-10 py-3 rounded-lg flex items-center gap-2 hover:opacity-90 transition-opacity">
               App Store
             </button>
 
-            <button className="bg-foreground/90 text-background font-semibold px-10 py-3 rounded-lg flex items-center gap-2 hover:opacity-90 transition-opacity">
+            <button className="bg-foreground/90 text-background font-semibold px-7 sm:px-10 py-3 rounded-lg flex items-center gap-2 hover:opacity-90 transition-opacity">
               Google Play
             </button>
           </div>
